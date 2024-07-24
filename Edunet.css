@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 2350px;
+}
+
+.header_section {
+    background-color: rgba(43, 240, 240, 0.144);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.home {
+    color: blue;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.left_side {
+    margin-left: 650px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.fa-solid {
+    color: black;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.hello {
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 220px;
+    margin-top: 250px;
+}
+
+.name {
+    display: flex;
+    margin-left: 195px;
+}
+
+.span {
+    color: white;
+    font-size: 100px;
+    color: blue;
+    text-shadow: 1px 2.5px black;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.body {
+    display: flex;
+    background-color: rgba(43, 240, 240, 0.144);
+}
+
+.intro {
+    margin-left: 190px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.developer {
+    color: blue;
+    font-size: 32px;
+}
+
+.btn_1,
+.btn_2 {
+    margin-left: 190px;
+    margin-top: 50px;
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(244, 184, 94, 0.641);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn_1:hover,
+.btn_2:hover {
+    background-color: rgba(245, 149, 6, 0.641);
+}
+
+.about_me {
+    margin-top: 30px;
+    background-color: rgba(43, 240, 240, 0.144);
+    height: 500px;
+    display: flex;
+}
+
+.photo img {
+    width: 450px;
+    height: 450px;
+    margin-left: 170px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.introduction {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.btn_3 {
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(244, 184, 94, 0.641);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn_3:hover {
+    background-color: rgba(245, 149, 6, 0.641);
+}
+
+.skills {
+    width: 1400px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.skills i {
+    font-size: 70px;
+    animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.projects {
+    margin-top: 10px;
+    background-color: rgba(43, 240, 240, 0.144);
+    height: 450px;
+    position: relative;
+}
+
+.box {
+    border: 2px solid blue;
+    width: 1200px;
+    height: 350px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 330px;
+    margin-top: 15px;
+}
+
+.lib_img {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.contact {
+    background-color: rgba(43, 240, 240, 0.144);
+    height: 450px;
+    display: flex;
+}
+
+.contact_me {
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: rgb(202, 250, 250);
+    border-radius: 16px;
+}
+
+.email-container,
+.phone-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.email-container i,
+.phone-container i {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.email-address,
+.phone-num {
+    font-size: 22px;
+}
+
+.form_details {
+    width: 530px;
+    background-color: rgb(202, 250, 250);
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+
+.btn_4 {
+    margin-top: 20px;
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(245, 149, 6, 0.641);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn_4:hover {
+    border: 1px solid black;
+}
+
+.top {
+    background-color: rgba(43, 240, 240, 0.144);
+    height: 50px;
+    text-align: right;
+}
+
+.btn_5 {
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn_5:hover {
+    border: 1px solid black;
+}

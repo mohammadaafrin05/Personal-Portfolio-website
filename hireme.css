@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+.contact-form, .project-inquiry-form, .pdf-brochure, .social-media, .contact-info {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #888;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label, .project-inquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea, .project-inquiry-form input, .project-inquiry-form select, .project-inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button[type="submit"], .project-inquiry-form button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button[type="submit"]:hover, .project-inquiry-form button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+.pdf-brochure a, .social-media a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pdf-brochure a:hover, .social-media a:hover {
+    color: #0069d9;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .contact-form, .project-inquiry-form, .pdf-brochure, .social-media, .contact-info {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .contact-form input, .contact-form textarea, .project-inquiry-form input, .project-inquiry-form select, .project-inquiry-form textarea {
+        padding: 5px;
+    }
+    
+    .contact-form button[type="submit"], .project-inquiry-form button[type="submit"] {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
