@@ -4,7 +4,7 @@ Introduction
 This portfolio is designed to demonstrate expertise and experience in software development, design, and other areas of interest. It includes a collection of projects, descriptions of skills, and links to social media profiles.
 
 Features
-Responsive design for mobile and desktop
+Responsive design for desktop
 Detailed project descriptions
 Contact form for inquiries
 Smooth navigation and user-friendly interface
